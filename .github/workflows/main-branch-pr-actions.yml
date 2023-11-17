@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  build_main:
+  build_main_pr:
 
     runs-on: ubuntu-latest
 
