@@ -3,7 +3,6 @@
 Just a repo to teach myself gitflow using github actions.
 
 Different Actions for:
-- main
+- main: pr vs merge
 - develop
-- tags
 - all other branches.
