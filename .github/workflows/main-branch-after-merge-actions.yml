@@ -41,7 +41,7 @@ jobs:
         max-line-length: "100"
 
     - name: Tag commit
-      uses: tvdias/github-tagger@v0.0.1
+      uses: laputansoft/github-tag-action@v4.6
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        tag: "v1.0.${{ github.run_number }}"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: v1.0.${{ github.run_number }}
